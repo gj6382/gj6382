@@ -151,6 +151,22 @@ footer p a {
     text-decoration: none;
 }
 
+/* Media Query for Tablet Viewport*/
+@media screen and (min-width: 630 px) {
+    /*Tablet Viewport: Show tablet-desktop class, hide mobile class */
+    .tablet-desktop {
+        display: block;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+}
+
+
+
+
 /*#exercises {
     clear: left;
     border-top: 1px solid #000;
